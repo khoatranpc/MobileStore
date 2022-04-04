@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="37dp"
+            android:layout_height="29dp"
+            android:paddingTop="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logonhom" />
+
+        <TextView
+            android:id="@+id/app_slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/app_logo"
+            android:fontFamily="@font/a"
+            android:gravity="center"
+            android:paddingTop="-5dp"
+            android:text="Grocery Store"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="416dp"
+        android:layout_height="256dp"
+        android:layout_gravity="center"
+        android:src="@drawable/home"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/duongvien_botron"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Chào mừng bạn đến với G3 Store!"
+        android:textColor="#ff000000"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        android:fontFamily="@font/a"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Thực phẩm tươi ngon cho bữa cơm của bạn"
+        android:textColor="#ff000000"
+        android:textSize="16dp"
+        android:fontFamily="@font/a"/>
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/border"
+        android:text="Join now"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:backgroundTint="@null"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/duongvien_botron"
+        android:text="Bạn là người mới? Đăng ký ngay"
+        android:textColor="#008000"
+        android:textSize="16dp"
+        app:backgroundTint="@null"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/baomat_dieukhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bằng việc đăng ký hoặc đăng nhập bạn đã đồng ý với các Điều khoản và Bảo mật của chúng tôi"
+        android:textColor="#ff000000"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        />
+    <ProgressBar
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/progressbar"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/baomat_dieukhoan"/>
+</LinearLayout>

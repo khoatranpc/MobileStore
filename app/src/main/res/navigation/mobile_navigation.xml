@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.thanhtrung.mobilestore.ui.home.HomeFragment"
+        android:label="GROUP3 STORE"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.thanhtrung.mobilestore.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.thanhtrung.mobilestore.ui.category.CategoryFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.thanhtrung.mobilestore.OffersFragment"
+        android:label="Offers"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/nav_new_products"
+        android:name="com.thanhtrung.mobilestore.NewProductsFragment"
+        android:label="New Products"
+        tools:layout="@layout/fragment_new_products" />
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.thanhtrung.mobilestore.MyOrdersFragment"
+        android:label="My Orders"
+        tools:layout="@layout/fragment_my_orders2" />
+    <fragment
+        android:id="@+id/nav_my_carts"
+        android:name="com.thanhtrung.mobilestore.MyCartsFragment"
+        android:label="My Carts"
+        tools:layout="@layout/fragment_my_carts" />
+</navigation>

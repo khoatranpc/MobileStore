@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrderActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar"
+        android:fontFamily="@font/a"
+        android:text="Please write your order details"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/confirm_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textview1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Your Name"
+        android:paddingLeft="20dp" />
+
+
+    <EditText
+        android:id="@+id/confirm_number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/confirm_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:drawablePadding="10dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/confirm_address"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/confirm_number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="10dp"
+        android:hint="Your Address"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/tv_priceTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_address"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="35dp"
+        android:text="Total price:"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tv_priceTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/a"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        app:backgroundTint="@null" />
+</RelativeLayout>

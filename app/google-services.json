@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "296358658945",
+    "project_id": "groceryapp-81ff2",
+    "storage_bucket": "groceryapp-81ff2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296358658945:android:4ef231fbf1f48b348d9e80",
+        "android_client_info": {
+          "package_name": "com.thanhtrung.mobilestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296358658945-a3l28ch11gksgu2s2a8dtmmdq5ui87ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDirVuLHF5gxKj44NS49gOQkApwNCGdc_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296358658945-a3l28ch11gksgu2s2a8dtmmdq5ui87ls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
